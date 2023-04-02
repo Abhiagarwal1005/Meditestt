@@ -59,47 +59,48 @@ a {
     display: inline-block;
 }
 
-ul{
+ul {
     margin-left: 90px;
 }
 
 ul li {
     list-style: none;
-    margin-left:27px;
+    margin-left: 27px;
     /* margin-bottom: 20; */
     /* font-size:20px; */
     font-style: normal;
     font-weight: 500;
-/* font-size: 17.8935px; */
+    /* font-size: 17.8935px; */
     line-height: 24px;
     letter-spacing: 0.03em;
 
 }
 
-.nav-links ul li a:hover{
-    color:#8DC936;
+.nav-links ul li a:hover {
+    color: #8DC936;
     /* border-color: rgb(224, 88, 9); */
-    
+
 }
 
-.nav-links{
+.nav-links {
     float: right;
-    
+
 }
 
-ul li a{
+ul li a {
     color: #000000;
 }
 
-#login{
+#login {
     margin-bottom: 20px;
 }
-#signup{
+
+#signup {
     margin-bottom: 20px;
     margin-left: -12px;
 }
 
-.primary-button{
+.primary-button {
     background-color: #e67429;
     border-radius: 15px;
     font-weight: 500;
@@ -109,10 +110,10 @@ ul li a{
     transition: 0.2s ease-out;
     margin-top: 20px;
     margin-left: 200px;
- }
+}
 
- .secondary-button{
-    border:1.9px solid rgb(0, 0, 0);
+.secondary-button {
+    border: 1.9px solid rgb(0, 0, 0);
     border-radius: 15px;
     font-weight: 500;
     color: var(--primary-text-color) !important;
@@ -120,10 +121,10 @@ ul li a{
     transition: 0.2s ease-out;
     margin-top: 20px;
 
-    
- }
 
- #login:hover{
+}
+
+#login:hover {
     /* background-color: transparent;
     border: 1.5px solid black;
     color: black; */
@@ -131,27 +132,26 @@ ul li a{
     color: black;
     border: 1.9px solid black;
     border-radius: 15px;
- }
+}
 
- #signup:hover{
+#signup:hover {
     color: #e67429 !important;
     border-color: #e67429;
 
- }
+}
 
- .banner{
+.banner {
     position: absolute;
     width: 100%;
     height: 360px;
     left: 0.5px;
     top: 95.5px;
-    /* background: linear-gradient(90deg, rgba(1, 255, 255, 0.35) 0%, rgba(255, 105, 179, 0.35) 100%); */
     background: linear-gradient(90deg, rgba(1, 255, 255, 0.35) 3.02%, rgba(255, 105, 179, 0.35) 103.02%);
 
     border-radius: 163px 0px 163px 0px;
 }
 
-.bannercircleleft{
+.bannercircleleft {
     position: absolute;
     width: 181px;
     /* height: 180.18px; */
@@ -160,7 +160,7 @@ ul li a{
 
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     width: 412px;
     height: 106px;
@@ -179,13 +179,13 @@ ul li a{
 
     color: #8DC936;
 
- }
+}
 
- .Tor{
+.Tor {
     color: #1B98D2;
- }
+}
 
- .lower-banner-text{
+.lower-banner-text {
     position: absolute;
     font-weight: 600;
     width: 288px;
@@ -200,33 +200,33 @@ ul li a{
     text-transform: capitalize;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
- }
+}
 
- .Consult-btn{
-        position: absolute;
+.Consult-btn {
+    position: absolute;
     left: 181px;
     top: 184px;
     color: rgb(8, 7, 7);
-    font-family:'poppins',sans-serif;
- }
+    font-family: 'poppins', sans-serif;
+}
 
- .Consult-btn:hover{
+.Consult-btn:hover {
     /* letter-spacing: .1rem; */
     background-color: transparent;
     color: #e67429;
     border: 1px solid #e67429;
     border-radius: 17px;
- }
+}
 
- .bannerimg{
+.bannerimg {
     position: absolute;
     width: 441px;
     height: 441px;
     left: 726px;
     top: 2.9px;
- }
+}
 
-.bannercircleright{
+.bannercircleright {
     /* position: absolute; */
     width: 181px;
     /* height: 180.18px; */
@@ -235,4 +235,175 @@ ul li a{
     margin-top: -20px;
     top: 172px;
     float: right;
+}
+
+.link-card-container {
+    display: flex;
+    top: 438px;
+    position: relative;
+    justify-content: center;
+
+}
+
+.link-card {
+    background-color: #FFFFFF;
+    width: 185px;
+    height: 245.94px;
+    margin: 26.5px;
+    border-radius: 34.82px;
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+}
+
+.link-card-image {
+    height: 146px;
+    margin-bottom: 9px;
+    background-size: cover;
+    border-radius: 34.82px 34.82px 0px 0px;
+}
+
+.card1 {
+    background-image: url(Image/Rectangle\ 1.png);
+}
+
+.card2 {
+    background-image: url(Image/Rectangle\ 2.png);
+}
+
+.card3 {
+    background-image: url(Image/Rectangle\ 3.png);
+}
+
+.card4 {
+    background-image: url(Image/Rectangle\ 2.png);
+}
+
+.card5 {
+    background-image: url(Image/Rectangle\ 1.png);
+}
+
+.link-card h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.8935px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.link-card p {
+    display: block;
+    text-align: center;
+    /* line-height: 24px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.386px;
+    line-height: 25px;
+    color: #020F54;
+    text-align: center;
+}
+
+.link-card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+
+}
+
+.step-heading-text {
+    margin-top: 503px;
+    margin-left: 95px;
+    font-family: 'libre baskerville', sans-serif;
+    color: #000000;
+}
+
+.step-paragraph-text {
+    margin-left: 95px;
+    font-family: 'poppins', sans-serif;
+    font-size: 21px;
+    line-height: 31px;
+    margin-top: 20px;
+    color: #183b56;
+}
+
+.circle1 {
+    background: #D5D8FC;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.straight-line1 {
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    margin-left: 91px;
+    margin-top: 51px;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.circle2 {
+    background: #D5D8FC;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.straight-line2 {
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    margin-left: 91px;
+    margin-top: 51px;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.circle3 {
+    background: #D5D8FC;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.circle1-text {
+    width: 800px;
+    margin-left: 127px;
+    font-size: 30px;
+    color: black;
+    word-spacing: 0.2rem;
+}
+
+.circle2-text {
+    width: 800px;
+    margin-left: 127px;
+    font-size: 30px;
+    color: black;
+    word-spacing: 0.2rem;
+}
+
+.circle3-text {
+    width: 800px;
+    margin-left: 127px;
+    font-size: 30px;
+    color: black;
+    word-spacing: 0.2rem;
+}
+
+.step-para{
+    width: 420px;
+    letter-spacing: 0.03em;
+    margin-left: 129px;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--primary-text-color);
+    font-family: 'poppins',sans-serif;
 }
