@@ -398,12 +398,18 @@ ul li a {
     word-spacing: 0.2rem;
 }
 
-.step-para{
+.step-para {
     width: 420px;
     letter-spacing: 0.03em;
     margin-left: 129px;
     font-size: 16px;
     line-height: 23px;
     color: var(--primary-text-color);
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
+}
+ .step-img {
+    width: 40%;
+    /* margin-left: 944px; */
+    float: right;
+    margin-top: -609px;
 }
